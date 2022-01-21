@@ -139,11 +139,13 @@ module.exports={
     }
 }
 ```
+
 ## Webpack-Plugins
 
 Webpack plugin 是一个具有应用方法的JavaScript对象，应用方法在编译时被调用
 
 ### webpack plugin 配置
+
 ```js
 const HtmlWebpackPlugin = require('html-webpack-plugin'); //installed via npm
 const webpack = require('webpack'); //to access built-in plugins
